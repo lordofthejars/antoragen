@@ -1,0 +1,15 @@
+= Section 1
+include::_attributes.adoc[]
+
+This is the first section of the document
+
+== Subsection 11
+
+This is the subsection of the *project*.
+
+[#modes]
+== Subsection 12
+
+This is another subsection.
+
+TIP: You can refer to it with `modes` id.

@@ -1,0 +1,11 @@
+= Antora Gen
+
+AntoraGen is an opinionated generator for generating basic structure (scaffolding) for documentation to be consumed by https://antora.org/[Antora].
+
+In your project directory you only need to run: `antoragen doc --project-name project` and `docs` folder will be created with basic structure for docs and basic Antora configuration files.
+
+In your site directory (it can be the project directory as well although I discourage this) you run `antoragen site -project-name project -public http://localhost -repo file:///tmp/project` and site configuration files for Antora will be created.
+
+`public` must be the URL where the site is going to be hosted.
+
+`repo` is the repository where project is stored. The project where you have run `antoragen doc` command.

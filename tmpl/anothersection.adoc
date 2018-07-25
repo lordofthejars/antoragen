@@ -1,0 +1,4 @@
+= Section 2
+include::_attributes.adoc[]
+
+This is another section that has a reference to another document of same module xref:section.adoc[Section 1]
